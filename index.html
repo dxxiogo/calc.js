@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">~
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calc.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <main>
+        <header>
+            <h1>Calc.js</h1>
+            <button id="change-theme-btn">Switch theme Dark/Light</button>
+        </header>
+        <div id="calc-input">
+            <input type="text" id="input">
+        </div>
+        <table id="keys-table">
+            <tr>
+                <td ><button id="clear">C</button></td>
+                <td><button class="key-option" data-key-allowed=" ( ">(</button></td>
+                <td><button class="key-option" data-key-allowed=" ) ">)</button></td>
+                <td><button class="key-option" data-key-allowed=" / ">/</button></td>
+            </tr>
+            <tr>
+                <td ><button class="key-option" data-key-allowed="7">7</button></td>
+                <td><button class="key-option" data-key-allowed="8">8</button></td>
+                <td><button class="key-option" data-key-allowed="9">9</button></td>
+                <td><button class="key-option" data-key-allowed=" * "> * </button></td>
+            </tr>
+            <tr>
+                <td ><button class="key-option" data-key-allowed="4">4</button></td>
+                <td><button class="key-option" data-key-allowed="5">5</button></td>
+                <td><button class="key-option" data-key-allowed="6">6</button></td>
+                <td><button class="key-option" data-key-allowed=" - ">-</button></td>
+            </tr>
+            <tr>
+                <td ><button class="key-option" data-key-allowed="1">1</button></td>
+                <td><button class="key-option" data-key-allowed="2">2</button></td>
+                <td><button class="key-option" data-key-allowed="3">3</button></td>
+                <td><button class="key-option" data-key-allowed=" + ">+</button></td>
+            </tr>
+            <tr>
+                <td ><button class="key-option" data-key-allowed="0">0</button></td>
+                <td><button class="key-option" data-key-allowed=".">.</button></td>
+                <td><button class="key-option" data-key-allowed=" % ">mod</button></td>
+                <td><button id="eval">=</button></td>
+            </tr>
+        </table>
+        <div id="input-result">
+            <button id="copy-text">Copy</button>
+            <input type="text" id="result" disabled>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

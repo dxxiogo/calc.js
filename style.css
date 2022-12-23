@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #212529;
+    --border-color: #666;
+    --font-color: #f1f5f9;
+    --primary-color: #4dff91;
+    --error-color: #ff0043;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 700px;
+    padding: 50px;
+}
+header{
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    color: var(--font-color);
+}
+button{
+    font-weight: 700;
+    transition: .15s;
+}
+#change-theme-btn{
+    font-family: "Ubuntu", sans-serif;
+    height: 30px;
+    width: 180px;
+    border: 2px solid var(--font-color);
+    background: none;
+    color: var(--font-color);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+}
+#change-theme-btn:hover{
+    font-size: 14px;
+    border: var(--border-color);
+}
+#calc-input{
+    height: 60px;
+    padding-right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#input{
+    width: 97%;
+    height: 55px;
+    background: none;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: var(--font-color);
+    text-align: right;
+}
+
+tr{
+    display: flex;
+    gap: 10px;
+}
+td{
+    margin: 5px;
+}
+td button{
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--primary-color);
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+}
+td button:hover{
+    filter: brightness(0.8);
+}
+#input-result{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#input-result button{
+    height: 55px;
+    color: var(--font-color);
+    cursor: pointer;
+    width: 80px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: none;
+    border: 1px solid var(--border-color);
+}
+#input-result input{
+    height: 55px;
+    width: 84%;
+    background: none;
+    outline: none;
+    border: 1px solid var(--border-color);
+    padding: 5px 10px;
+    font-size: 18px;
+    color: var(--font-color);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+}
+.success{
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+.error{
+    background-color: var(--error-color) !important;
+}
