@@ -38,7 +38,7 @@ button{
 }
 #change-theme-btn{
     font-family: "Ubuntu", sans-serif;
-    height: 30px;
+    min-height: 30px;
     width: 180px;
     border: 2px solid var(--font-color);
     background: none;
@@ -129,4 +129,45 @@ td button:hover{
 }
 .error{
     background-color: var(--error-color) !important;
+}
+
+@media (max-width:600px) {
+    header{
+        width: 360px;
+        margin: auto;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    #input{
+        width: 350px;
+    }
+    .key-option, #eval, #clear{
+        width: 60px;
+    }
+    tr{
+        gap:22px;
+    }
+    #input-result{
+        padding: 10px;
+    }
+}
+
+@media (max-width:558px){
+    #change-theme-btn{
+        width: 120px;
+        font-size: 12px;
+    }
+    header{
+        width: 300px;
+    }
+    #input{
+        width: 300px;
+    }
+    .key-option, #eval, #clear{
+        width: 60px;
+    }
+    tr{
+        gap: 10px;
+    }
 }
