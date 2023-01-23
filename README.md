@@ -24,4 +24,4 @@ Esse é mais um projeto proposto para praticar os conhecimentos dos módulos de 
 * Manipulação com a DOM
 * Seleção de elementos
 
-Deploy: (clique aqui)[https://dxxiogo.github.io/calc.js/]
+Deploy: (https://dxxiogo.github.io/calc.js/)[Clique aqui!]
