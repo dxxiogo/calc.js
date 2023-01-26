@@ -1,0 +1,30 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "Esse é mais um projeto proposto para praticar os conhecimentos dos módulos de Javascript do curso de Desenvolvimento Full Stack, da One Bit Code.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxxiogo/calc.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxxiogo/calc.js/issues"
+  },
+  "homepage": "https://github.com/dxxiogo/calc.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

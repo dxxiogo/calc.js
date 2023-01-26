@@ -1,6 +1,7 @@
 import calculate from "./calculate.js";
 import clipBoard from "./clipBoard.js";
 import switchTheme from "./switchTheme.js";
+import "./css/style.css";
 import {keyboardHandle, clearInput} from "./keysfunction.js"
 
 const input = document.querySelector('#input');
