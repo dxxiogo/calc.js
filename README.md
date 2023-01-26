@@ -22,6 +22,7 @@ Esse é mais um projeto proposto para praticar os conhecimentos dos módulos de 
 
 * Modularização no Javascript
 * Manipulação com a DOM
-* Seleção de elementos
+* Empacotamento de arquivos com Webpack
+* Compatilidade de código de Javascript Moderno para navegadores desatualizados
 
 Deploy: [Clique aqui!](https://dxxiogo.github.io/calc.js/)
